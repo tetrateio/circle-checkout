@@ -13,6 +13,6 @@ inputs:
     description: 'The current token used for fetching the repository'
     default: ${{ github.token }}
 runs:
-  using: node16
+  using: node20
   main: dist/index.js
   post: dist/index.js
